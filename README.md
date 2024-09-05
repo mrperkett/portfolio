@@ -2,7 +2,7 @@
 
 📊 data science 🧬 bioinformatics 🧮 algorithm development </> software development 📖 machine learning 🐍 Python
 
-This page provides an overview of my public GitHub projects in my areas of interest. For an overview of the data science, software development, and bioinformatics projects I have worked on professionally, you please view my [LinkedIn profile](https://www.linkedin.com/in/matthew-perkett/). I am open to collaboration - please reach out if you have an interesting project!
+This page provides an overview of my public GitHub projects in my areas of interest. For an overview of the data science, software development, and bioinformatics projects I have worked on professionally, please view my [LinkedIn profile](https://www.linkedin.com/in/matthew-perkett/). I am open to collaboration - please reach out if you have an interesting project!
 
 **Table of Contents**
 - [Projects](#projects)
