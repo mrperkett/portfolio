@@ -2,19 +2,19 @@
 
 📊 data science 🧬 bioinformatics 🧮 algorithm development </> software development 📖 machine learning 🐍 Python
 
-This page provides an overview of my public GitHub projects in my areas of interest. For an overview of the data science, software development, and bioinformatics projects I have worked on professionally, please view my [LinkedIn profile](https://www.linkedin.com/in/matthew-perkett/). I am open to collaboration - please reach out if you have an interesting project!
+This page provides an overview of my public GitHub projects. For an overview of the projects that I have worked on professionally, please view my [LinkedIn profile](https://www.linkedin.com/in/matthew-perkett/). If you have an idea for a project, please reach out. I'd love to collaborate!
 
 **Table of Contents**
 - [Projects](#projects)
     - [Genome-kmers Python package](#genome-kmers-python-package)
     - [Audio Deconvolution Using Independent Component Analysis](#audio-deconvolution-using-independent-component-analysis)
+- [Training](#training)
 - [Training Projects](#training-projects)
     - [Donor Classification](#donor-classification)
     - [Customer Segment Analysis](#customer-segment-analysis)
     - [Flower Image Classification with TensorFlow](#flower-image-classification-with-tensorflow)
     - [Flower Image Classification with PyTorch](#flower-image-classification-with-pytorch)
     - [CIFAR-10 Image Classification with PyTorch](#cifar-10-image-classification-with-pytorch)
-- [Training](#training)
 
 # Projects
 
@@ -31,6 +31,18 @@ This is an open-source bioinformatics project that implements fast and memory-ef
 > **Keywords**: scikit-learn | signal processing [View Repo](https://github.com/mrperkett/ICA-audio-deconvolution)
 
 This project demonstrates how to use Independent Component Analysis (ICA) to deconvolute mixed audio signals.  A classic application of ICA is to the *cocktail party problem* of trying to listen to a single person talking in a noisy room.  To mimic this situation, I programmatically mix audio recordings and then attempt to deconvolute the signal into separate recordings.  Since we have the original recordings, it is possible to quantify the level of success.
+
+# Training
+
+I decided to undertake a broad review of data science and machine learning to reinforce my knowledge of the fundamental statistics/algorithms and get experience with a broader range of tools and libraries. I have outlined the larger trainings that I am working through below.
+
+Since I already have a foundation in machine learning, data science, and computer science fundamentals from my academic and professional background, I have used these trainings as a broad review to refresh my background, fill in gaps, and work on targeted projects.
+
+- Book: [An Introduction to Statistical Learning](https://www.statlearning.com/) $\color{purple}{\textsf{In Progress}}$
+    - Reading and working through exercises
+- Online: [Introduction to Machine Learning with TensorFlow](https://www.udacity.com/course/intro-to-machine-learning-with-tensorflow-nanodegree--nd230) $\color{green}{\textsf{Complete}}$
+- Online: [Introduction to Machine Learning with PyTorch](https://www.udacity.com/course/intro-to-machine-learning-nanodegree--nd229) $\color{green}{\textsf{Complete}}$
+- Online: [AI Programming with Python](https://www.udacity.com/course/ai-programming-python-nanodegree--nd089) $\color{green}{\textsf{Complete}}$
 
 # Training Projects
 
@@ -78,14 +90,3 @@ This project is very similar to [Flower Image Classification with TensorFlow](#f
 This project classifies images from the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) image data set into one of 10 categories (airplane, automobile, bird, etc).  To do this, a Convolutional Neural Network (CNN) is trained in PyTorch using accuracy as the metric.  Multiple NNs are tested (varying the number and size of layers) before selecting the best classifier, which has an accuracy of 70%.  The intent of this project is to work through all the necessary steps for training and validating a model rather.  To quickly build something with higher accuracy, we could consider using transfer learning using a pretrained neural network.  We would expect a good classifier to achieve and accuracy of >90% on this image set.
 
 
-# Training
-
-I decided to undertake a broad review of data science and machine learning to reinforce my understanding of the fundamental statistics/algorithms and get experience with a broader range of tools and libraries. I have outlined the larger trainings that I am working through below.
-
-Since I already have a foundation in machine learning, data science, and computer science fundamentals from my academic and professional background, I have used these trainings as a broad review to refresh my background, fill in gaps, and work on targeted projects.
-
-- Book: [An Introduction to Statistical Learning](https://www.statlearning.com/) $\color{purple}{\textsf{In Progress}}$
-    - Reading and working through exercises
-- Online: [Introduction to Machine Learning with TensorFlow](https://www.udacity.com/course/intro-to-machine-learning-with-tensorflow-nanodegree--nd230) $\color{green}{\textsf{Complete}}$
-- Online: [Introduction to Machine Learning with PyTorch](https://www.udacity.com/course/intro-to-machine-learning-nanodegree--nd229) $\color{green}{\textsf{Complete}}$
-- Online: [AI Programming with Python](https://www.udacity.com/course/ai-programming-python-nanodegree--nd089) $\color{green}{\textsf{Complete}}$
