@@ -19,6 +19,10 @@ This page provides an overview of my public GitHub projects. For an overview of 
 # Projects
 
 ## Genome-kmers Python package
+
+<img src="resources/human-genome-kmer-stats.png" width="800"/>
+
+
 > **Keywords**: bioinformatics | Python | numba | numpy. [Homepage](https://genome-kmers.readthedocs.io/en/latest/index.html) | [API](https://genome-kmers.readthedocs.io/en/latest/genome_kmers.html) | [Repo](https://github.com/mrperkett/genome-kmers)
 
 This is an open-source bioinformatics project that implements fast and memory-efficient genome k-mer calculations.  It can be installed from PyPI with `pip install genome-kmers`.  A genome is often comprised of multiple chromosomes and the sequence of each chromosome can be represented as a long string of bases (`A`, `T`, `G`, or `C`).  A $k$-mer is a string of bases of length $k$.  Since a genome can be quite large (the human genome contains ~3e9 base pairs), it is necessary to select an efficient data structure so that memory usage does not become an issue.  I designed and implemented a data structure that scales with genome length, but not $k$.  It also uses `numba` to run orders of magnitude faster than pure Python.  Check out the [homepage](https://genome-kmers.readthedocs.io/en/latest/index.html#) for more information.
