@@ -18,7 +18,7 @@ This page provides an overview of my public GitHub projects. For an overview of 
 
 # Projects
 
-## Genome-kmers Python package
+## Genome-kmers Python Package
 
 <img src="resources/human-genome-kmer-stats.png" width="800"/>
 
@@ -26,6 +26,26 @@ This page provides an overview of my public GitHub projects. For an overview of 
 > **Keywords**: bioinformatics | Python | numba | numpy. [Homepage](https://genome-kmers.readthedocs.io/en/latest/index.html) | [API](https://genome-kmers.readthedocs.io/en/latest/genome_kmers.html) | [Repo](https://github.com/mrperkett/genome-kmers)
 
 This is an open-source bioinformatics project that implements fast and memory-efficient genome k-mer calculations.  It can be installed from PyPI with `pip install genome-kmers`.  A genome is often comprised of multiple chromosomes and the sequence of each chromosome can be represented as a long string of bases (`A`, `T`, `G`, or `C`).  A $k$-mer is a string of bases of length $k$.  Since a genome can be quite large (the human genome contains ~3e9 base pairs), it is necessary to select an efficient data structure so that memory usage does not become an issue.  I designed and implemented a data structure that scales with genome length, but not $k$.  It also uses `numba` to run orders of magnitude faster than pure Python.  Check out the [homepage](https://genome-kmers.readthedocs.io/en/latest/index.html#) for more information.
+
+## Single Cell Gene Expression Web Application
+
+<img src="resources/single-cell-web-tool.png" width="800"/>
+
+
+> **Keywords**: bioinformatics | Python | Streamlit | Docker | Azure | web application | single cell RNA-Seq | scanpy. [Repo](https://github.com/mrperkett/single-cell-streamlit) | [Demo Video](https://github.com/user-attachments/assets/858cd95f-9900-4ded-a33f-f9ccb18e345c) | [Demo website](https://mattperkett.com/single-cell/)
+
+This is a bioinformatics web application that provides a simple, customizable user interface for the common [single cell RNA-Seq](https://en.wikipedia.org/wiki/Single-cell_sequencing) preprocessing and analysis tasks, which include:
+
+- Quality Control
+- Doublet Detection
+- Normalization
+- Feature Selection
+- PCA for dimensional reduction
+- UMAP / t-SNE for dimensional reduction and visualization
+- Clustering
+
+The web application uses the `Streamlit` for the web framework and `scanpy` for some of the analysis.  A Dockerfile is provided for deployment, and a demo version of the web application has been deployed to Azure and is available at [https://mattperkett.com/single-cell/](https://mattperkett.com/single-cell/).
+
 
 ## Audio Deconvolution Using Independent Component Analysis
 
@@ -92,5 +112,3 @@ This project is very similar to [Flower Image Classification with TensorFlow](#f
 > **Keywords**: classification | PyTorch | deep learning | Docker. [View Repo](https://github.com/mrperkett/udacity-image-classifier-cifar-10)
 
 This project classifies images from the [CIFAR-10](https://www.cs.toronto.edu/~kriz/cifar.html) image data set into one of 10 categories (airplane, automobile, bird, etc).  To do this, a Convolutional Neural Network (CNN) is trained in PyTorch using accuracy as the metric.  Multiple NNs are tested (varying the number and size of layers) before selecting the best classifier, which has an accuracy of 70%.  The intent of this project is to work through all the necessary steps for training and validating a model rather.  To quickly build something with higher accuracy, we could consider using transfer learning using a pretrained neural network.  We would expect a good classifier to achieve and accuracy of >90% on this image set.
-
-
