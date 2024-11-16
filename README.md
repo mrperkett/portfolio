@@ -7,6 +7,7 @@ This page provides an overview of my public GitHub projects. For an overview of 
 **Table of Contents**
 - [Projects](#projects)
     - [Genome-kmers Python package](#genome-kmers-python-package)
+    - [Single Cell Gene Expression Web Application](#single-cell-gene-expression-web-application)
     - [Audio Deconvolution Using Independent Component Analysis](#audio-deconvolution-using-independent-component-analysis)
 - [Training](#training)
 - [Training Projects](#training-projects)
